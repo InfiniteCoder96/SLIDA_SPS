@@ -1,0 +1,151 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#box1{
+    height:100vh;
+    width:100%;
+    background-image: url('../../assets/images/background/2547.jpg');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#box2{
+    height:500px;
+    width:100%;
+    background-image: url("../../assets/images/frontend_images/graduation.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#box3{
+    color: #4e555b;
+    height:100vh;
+    width:100%;
+    background-image: url("../../assets/images/big/img14.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+
+
+.title{
+
+     vertical-align: middle;
+     margin-top: 300px;
+ }
+
+.subtitle{
+
+    vertical-align: middle;
+
+}
+
+.portal_btn{
+    margin-top: 50px;
+
+}
+
+#portal_button {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    background: transparent; /* no background! */
+    border: 1px solid goldenrod;
+    border-radius: 100px;
+    position: relative; /* new */
+}
+
+#portal_button:after {
+    content: "";
+    position: absolute;
+    /* Making pseudoelement the same size as container */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* Inheriting border properties */
+    border-radius: inherit;
+    border: inherit;
+    /* Applying filter with shadow */
+    filter: drop-shadow(5px 5px 1px rgba(1, 1, 1, 0.25));
+}
+
+.slida_logo{
+    margin-top: 100px;
+
+    width: 100px;
+    height: 100px
+}
+
+.srilanka_logo{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 70px;
+    height: 90px
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100px;
+    height: 100px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+

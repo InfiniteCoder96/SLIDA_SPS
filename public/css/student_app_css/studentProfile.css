@@ -1,0 +1,12 @@
+body{
+    height:92vh;
+    width:100%;
+    background-image: url('../../assets/images/background/23831.jpg');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#result_table{
+    margin-top: 100px;
+}

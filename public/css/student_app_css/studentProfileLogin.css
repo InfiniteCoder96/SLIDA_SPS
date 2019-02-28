@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#box1{
+    height:92vh;
+    width:100%;
+    background-image: url('../../assets/images/background/2546.jpg');
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 10px 25px -6px darkslategray;
+
+    /* the rest of your styling */
+}
+
+
+footer{
+    margin-top: 150px;
+}
+
+#login{
+    -webkit-box-shadow: -1px -1px 36px 4px rgba(255,18,18,1);
+    -moz-box-shadow: -1px -1px 36px 4px rgba(255,18,18,1);
+    box-shadow: -1px -1px 36px 4px rgba(255,18,18,1);
+}
