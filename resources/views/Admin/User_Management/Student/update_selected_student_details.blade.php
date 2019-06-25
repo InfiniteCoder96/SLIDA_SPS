@@ -127,9 +127,6 @@
                                                         @elseif($student['salutation'] == 'Mrs')
                                                             <option selected value="Mrs">Mrs</option>
                                                         @endif
-
-
-
                                                     </select>
                                                 </div>
                                                 <div class="valid-feedback">

@@ -46,7 +46,6 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
-                        <div id="ass" class="card-body" style="background-image: url({{asset('assets/images/frontend_images/con0.JPG')}});height:600px;background-size: cover">
                             <div class="row" style="opacity: 0.8">
                                 <div class="col-md-4">
                                     <div class="card text-white bg-dark mb-3 card-hover">
@@ -205,7 +204,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+
     </div>
     <!-- ============================================================== -->
     <!-- Sales chart -->
